@@ -1,0 +1,134 @@
+{
+	"header": {
+		"name": "Samriddh Pratap Verma",
+		"title": "Full Stack Developer | Amazon Web Services | Spring Boot | Google Cloud Project | MERN Stack",
+		"mail": "samriddhpratapverma@gmail.com",
+		"phone": "9161086557",
+		"location": {
+			"url": "https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh,+India",
+			"label": "Lucknow, Uttar Pradesh, India."
+		},
+		"links": [
+			{
+				"url": "https://samriddh.vercel.app",
+				"label": "samriddh.vercel.app"
+			},
+			{
+				"url": "https://www.linkedin.com/in/samriddhpratapverma/",
+				"label": "linkedin.com/in/samriddhpratapverma"
+			},
+			{
+				"url": "https://github.com/SamriddhVermaSRM",
+				"label": "github.com/SamriddhVermaSRM"
+			}
+		]
+	},
+	"summary": "I am a Full Stack Developer with firsthand experience in building scalable web applications using the MERN stack, Java Spring Boot, and Next.js (TypeScript). I have Proven expertise in leading development teams, managing CI/CD pipelines, deploying cloud-native applications on AWS and Google Cloud, JWT-based authentication, UI/UX optimization, building mobile applications with Kotlin and Flutter, and Machine Learning & AI Integration with TensorFlow and Langchain.",
+	"education": [
+		{
+			"degree": "Bachelor of Technology",
+			"institution": "APJ Abdul Kalam Technical University",
+			"startDate": "2022",
+			"endDate": "2026",
+			"major": "Information Technology",
+			"location": "Lucknow, Uttar Pradesh, India"
+		}
+	],
+	"skills": [
+		"Languages: Java, Kotlin, TypeScript, JavaScript, Python, C",
+		"Frontend: HTML, CSS, React.js, Next.js, Tailwind CSS",
+		"Backend: Node.js, Express.js, Spring Boot, RESTful APIs, JWT",
+		"DevOps & Cloud: AWS EC2, GitHub Actions, Docker, GCP",
+		"Tools: Postman, Swagger, Figma, Three.js, Framer Motion, TensorFlow, Langchain",
+		"Interests: Web development, Cloud technologies, Mobile applications, Artificial Intelligence, Machine Learning, Open-source contributions"
+	],
+	"projects": [
+		{
+			"title": "Emotional Intelligence Assessment Using AI/ML",
+			"techStack": "Python, TensorFlow, Computer Vision, Audio Analysis, Wearable Tech",
+			"points": [
+				"Building a multimodal system to assess emotional intelligence using facial expressions, voice, and heart rate.",
+				"Using ML models for real-time emotion classification with applications in education and mental health.",
+				"Developing an MVP to validate system accuracy and real-world effectiveness."
+			],
+			"ongoing": true
+		},
+		{
+			"title": "AI-Based Health Assistant",
+			"techStack": "Next.js, TypeScript, TensorFlow, Langchain",
+			"points": [
+				"Created a medical assistant that interprets user symptoms and returns ML-driven diagnostic insights.",
+				"Automatically generates medical history reports for clinical reference.",
+				"Designed a responsive, user-friendly interface with secure data flow."
+			],
+			"ongoing": false
+		},
+		{
+			"title": "Certificate Distribution Platform",
+			"techStack": "Next.js, TypeScript, CORS Proxy, REST API",
+			"points": [
+				"Developed an event certificate platform allowing automated and secure PDF downloads.",
+				"Implemented CORS proxy scraping for dynamic data integration.",
+				"Deployed and used successfully at college-level tech events."
+			],
+			"ongoing": false
+		},
+		{
+			"title": "Personal Portfolio Website",
+			"techStack": "Next.js, TypeScript, Tailwind CSS, Framer Motion, Three.js",
+			"points": [
+				"Designed and developed a personal portfolio website to showcase projects and skills.",
+				"Implemented responsive design and interactive UI elements using Tailwind CSS and Framer Motion.",
+				"Integrated 3D graphics with Three.js for an engaging user experience."
+			],
+			"ongoing": false
+		},
+		{
+			"title": "E-commerce Platform",
+			"techStack": "MERN Stack (MongoDB, Express.js, React.js, Node.js), JWT, AWS EC2",
+			"points": [
+				"Developed a full-featured e-commerce platform with user authentication, product management, and order processing.",
+				"Implemented secure JWT-based authentication and role-based access control.",
+				"Deployed the application on AWS EC2 with CI/CD pipelines using GitHub Actions."
+			],
+			"ongoing": false
+		}
+	],
+	"workExperience": [
+		{
+			"jobTitle": "Co-founder and Chief Technology Officer",
+			"company": "Kandid",
+			"location": "Lucknow, Uttar Pradesh, India",
+			"startDate": "2024",
+			"endDate": "Present",
+			"responsibilities": [
+				"Leading full-stack development of a Q-Commerce platform serving 100+ users within 60-minutes using Next.js (TypeScript), and Spring Boot.",
+				"Engineered and deployed scalable JWT-authenticated REST APIs, keeping API latency under 10ms.",
+				"Integrated Google Maps API to support real-time driver tracking and reduce delivery coordination time by 25%.",
+				"Automated deployment using GitHub Actions; enabled zero-downtime releases across AWS EC2 infrastructure."
+			]
+		},
+		{
+			"jobTitle": "Technical Lead",
+			"company": "GDG On Campus, SRMCEM",
+			"location": "Lucknow, Uttar Pradesh, India",
+			"startDate": "2024",
+			"endDate": "2025",
+			"responsibilities": [
+				"Mentored 5+ developers and hosted technical workshops and events for 200+ students.",
+				"Led 5+ full stack and app development sessions, enhancing peer technical fluency by 40%."
+			]
+		},
+		{
+			"jobTitle": "Volunteer",
+			"company": "GDSC SRMCEM",
+			"location": "Lucknow, Uttar Pradesh, India",
+			"startDate": "2023",
+			"endDate": "2024",
+			"responsibilities": [
+				"Supported organization and management for GDSC WOW Lucknow with 500+ participants.",
+				"Ensured smooth operations and prominent levels of engagement throughout the event."
+			]
+		}
+	]
+}
