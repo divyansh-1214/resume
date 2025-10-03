@@ -1,57 +1,59 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 :root {
-	--background: #ffffff;
-	--foreground: #171717;
+    --glow: #00000050;
+    --background: #ffffff;
+    --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--background: #0a0a0a;
-		--foreground: #ededed;
-	}
+    :root {
+        --glow: #ffffff50;
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 header,
 section {
-	margin-top: 8px;
-	margin-bottom: 12px;
+    margin-top: 8px;
+    margin-bottom: 12px;
 }
 
 body {
-	background: var(--background);
-	color: var(--foreground);
-	font-family: Times;
-	color: black;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Times;
+    /*color: black;*/
 }
 
 h2 {
-	font-size: 16px;
-	font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 h3 {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 p {
-	font-size: 12px;
-	line-height: 12px;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 /* Ensure print-ready styles */
 @media print {
-	body {
-		background: white !important;
-		color: black !important;
-	}
+    body {
+        background: white !important;
+        color: black !important;
+    }
 
-	.p-20 {
-		padding: 0 !important;
-	}
+    .p-20 {
+        padding: 0 !important;
+    }
 
-	.resume {
-		box-shadow: none !important;
-		border-radius: 0 !important;
-	}
+    .resume {
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
 }

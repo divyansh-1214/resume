@@ -1,45 +1,46 @@
-import Header from './components/Header';
-import Summary from './components/Summary';
-import Education from './components/Education';
-import TechnicalSkills from './components/TechnicalSkills';
-import Projects from './components/Projects';
-import ProfessionalExperience from './components/ProfessionalExperience';
-import resume from './components/resume.json';
+import Header from "./components/Header";
+import Summary from "./components/Summary";
+import Education from "./components/Education";
+import TechnicalSkills from "./components/TechnicalSkills";
+import Projects from "./components/Projects";
+import ProfessionalExperience from "./components/ProfessionalExperience";
+import Resume from "./components/Resume";
+import { Divider } from "./components/Divider";
 
 export default function Home() {
-	return (
-		<div className='bg-white min-h-screen p-20'>
-			{/* A4 paper-like container */}
-			<div className='mx-auto shadow-[0_0_20px_#00000050] rounded-lg p-7 h-[297mm] w-[210mm] resume'>
-				<div className='flex flex-col'>
-					<Header {...resume.header} />
+  return (
+    <div className="h-max p-20">
+      {/* A4 paper-like container */}
+      <div className="mx-auto shadow-[0_0_30px_var(--glow)] rounded-lg p-7 h-[297mm] w-[210mm] resume">
+        <div className="flex flex-col">
+          <Header header={Resume.header} />
 
-					{/* Divider line */}
-					<div className='w-full h-px bg-black'></div>
+          {/* Divider line */}
+          <Divider />
 
-					<Summary summary={resume.summary} />
+          <Summary summary={Resume.summary} />
 
-					{/* Divider line */}
-					<div className='w-full h-px bg-black'></div>
+          {/* Divider line */}
+          <Divider />
 
-					<Education education={resume.education} />
+          <Education education={Resume.education} />
 
-					{/* Divider line */}
-					<div className='w-full h-px bg-black'></div>
+          {/* Divider line */}
+          <Divider />
 
-					<TechnicalSkills skills={resume.skills} />
+          <TechnicalSkills skills={Resume.skills} />
 
-					{/* Divider line */}
-					<div className='w-full h-px bg-black'></div>
+          {/* Divider line */}
+          <Divider />
 
-					<Projects projects={resume.projects.slice(0, 3)} />
+          <Projects projects={Resume.projects.slice(0, 3)} />
 
-					{/* Divider line */}
-					<div className='w-full h-px bg-black'></div>
+          {/* Divider line */}
+          <Divider />
 
-					<ProfessionalExperience workExperience={resume.workExperience} />
-				</div>
-			</div>
-		</div>
-	);
+          <ProfessionalExperience workExperience={Resume.workExperience} />
+        </div>
+      </div>
+    </div>
+  );
 }
